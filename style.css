@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(39, 39, 39);
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+section h1 {
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+
+.conversion {
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    width: auto;
+    height: 40px;
+    outline: none;
+    margin: 2%;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+}
+
+select {
+    height: 50px;
+    outline: none;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+}
